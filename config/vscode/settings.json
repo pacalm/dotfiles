@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'PlemolJP Console HS', 'Droid Sans Mono', 'monospace', monospace",
+    "terminal.integrated.fontFamily": "PlemolJP Console HS",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "editor.minimap.enabled": false
+    
+}
