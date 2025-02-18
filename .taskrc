@@ -56,5 +56,7 @@ report._reviewed.columns=uuid
 report._reviewed.sort=reviewed+,modified+
 report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +PENDING or +WAITING )
 
-report.next.labels=ID,Active,Deps,P,Project,Tag,Recur,S,Due,Until,Description
-report.next.columns=id,start.age,depends,priority,project,tags,recur,scheduled.countdown,due.relative,until.remaining,description
+uda.estimate.type=duration
+uda.estimate.label=Estimated Time
+report.next.columns=id,start.age,depends,priority,project,estimate,tags,scheduled.countdown,due.relative,until.remaining,description
+report.next.labels=ID,Active,Deps,P,Project,Estimated Time,Tag,S,Due,Until,Description
