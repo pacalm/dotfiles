@@ -58,5 +58,11 @@ report._reviewed.filter=( reviewed.none: or reviewed.before:now-6days ) and ( +P
 
 uda.estimate.type=duration
 uda.estimate.label=Estimated Time
+
 report.next.columns=id,start.age,depends,priority,project,estimate,tags,scheduled.countdown,due.relative,until.remaining,description
-report.next.labels=ID,Active,Deps,P,Project,Estimated Time,Tag,S,Due,Until,Description
+report.next.labels=ID,Active,Deps,P,Project,Est,Tag,S,Due,Until,Description
+uda.priority.values=Critical,Important,
+
+# alias
+alias.rm=delete
+alias.est=estimate
