@@ -1,4 +1,4 @@
-# [Created by task 2.6.1 7/31/2024 20:32:48]
+# [Created by task 2.6.2 1/25/2025 21:50:56]
 # Taskwarrior program configuration file.
 # For more documentation, see https://taskwarrior.org or try 'man task', 'man task-color',
 # 'man task-sync' or 'man taskrc'
@@ -49,6 +49,11 @@ context.study.read=+lab
 context.study.write=+lab
 context.home.read=+home
 context.home.write=+home
+context.todo.read=+todo
+context.todo.write=+todo
+context.wish.read=+wish
+context.wish.write=+wish
+
 uda.reviewed.type=date
 uda.reviewed.label=Reviewed
 report._reviewed.description=Tasksh review report.  Adjust the filter to your needs.
@@ -66,3 +71,4 @@ uda.priority.values=Critical,Important,
 # alias
 alias.rm=delete
 alias.est=estimate
+alias.pull=execute task_pull
