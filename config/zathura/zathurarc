@@ -7,29 +7,31 @@ set guioptions cshv
 
 # color-theme
 # ページの色設定
-set default-fg              "#bcc0d1"
-set default-bg              "#161821"
+set default-fg              "#A6ACCD"
+set default-bg              "#292D3E"
 set recolor true #  デフォルトでドキュメントの色を変更する
-set recolor-darkcolor       "#bcc0d1"
-set recolor-lightcolor      "#161821"
-set highlight-color         "#84a0c6"
-set highlight-active-color  "#a093c7"
+set recolor-darkcolor       "#292D2E"
+set recolor-lightcolor      "#A6ACCD"
+set highlight-color         "#C792EA"
+set highlight-active-color  "#FFCB6B"
 
 #  UIの色設定
-set inputbar-fg             "#bcc0d1"
+set inputbar-fg             "#A6ACCD"
 set inputbar-bg             "#161821"
-set notification-fg         "#bcc0d1"
+set notification-fg         "#A6ACCD"
 set notification-bg         "#353a50"
 set notification-error-fg   "#e27878"
 set notification-error-fg   "#161821"
 set notification-warning-fg "#e2a478"
 set notification-warning-fg "#161821"
-set statusbar-fg            "#bcc0d1"
-set statusbar-bg            "#444b71"
-set completion-fg           "#bcc0d1"
-set completion-bg           "#161821"
-set completion-highlight-fg "#161821"
-set completion-highlight-bg "#84a0c6"
+set statusbar-fg            "#A6ACCD"
+set statusbar-bg            "#1e1e2e"
+set completion-fg           "#A6ACCD"
+set completion-bg           "#1e1e2e"
+
+set completion-highlight-fg "#FFFFFF"
+set completion-highlight-bg "#676e95"
 set completion-group-fg     "#bcc0d1"
 set completion-group-bg     "#353a50"
 
+set font PlemolJP 14
